@@ -1,0 +1,12 @@
+#frame{
+    position:fixed;
+    width:100vw;
+    height:100vh;
+    transform:scale(0.25);
+}
+
+.imageBoxWrapper{
+    width: 400vw;
+    float:left;
+    height:calc(100vh - 100px);
+}

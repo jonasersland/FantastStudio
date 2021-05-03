@@ -1,0 +1,8 @@
+.ImageBox{
+    width:500px;
+    height:100%;
+    background:blue;
+    border:thin solid white;
+    float:left;
+    cursor:pointer;
+}
