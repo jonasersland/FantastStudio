@@ -5,12 +5,12 @@ export default {
     fields: [
         {
         name: 'image',
-        title: 'Bildefil',
+        title: 'Image file',
         type: 'image',
         },
       {
         name: 'caption',
-        title: 'Bildetekst',
+        title: 'Image caption',
         type: 'blockContent',
       },
     ],
