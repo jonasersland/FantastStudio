@@ -1,0 +1,34 @@
+#backgroundCursorDetectorWrapper{
+    position:fixed;
+    z-index: 0;
+}
+
+#BackgroundCursorDetectorUp{
+    position:fixed;
+    width:100vw;
+    left:0;
+    top:0px;
+    height:50px;
+}
+#BackgroundCursorDetectorRight{
+    position:fixed;
+    width:50vw;
+    right:0;
+    top:50px;
+    height:calc(100vh - 100px);
+}
+#BackgroundCursorDetectorDown{
+    position:fixed;
+    width:100vw;
+    left:0;
+    bottom:0px;
+    height:50px;
+}
+#BackgroundCursorDetectorLeft{
+    position:fixed;
+    width:50vw;
+    left:0;
+    top:50px;
+    height:calc(100vh - 100px);
+
+}

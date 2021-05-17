@@ -1,0 +1,29 @@
+.dot {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 8px;
+    height: 8px;
+color:white;
+    border-radius: 100%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    pointer-events: none;
+    transition:transform 0.1s ease-in-out
+  }
+
+  .dot.up {
+    transform:rotate(-90deg);
+  }
+
+  .dot.right {
+    transform:rotate(0deg);
+  }
+
+  .dot.down {
+    transform:rotate(90deg);
+  }
+
+  .dot.left {
+    transform:rotate(180deg);
+  }

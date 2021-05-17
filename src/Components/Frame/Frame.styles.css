@@ -4,6 +4,7 @@
     height:100vh;
     transform:scale(0.25);
     transform-origin: top left;
+    z-index: 1;
 }
 
 .imageBoxWrapper{
